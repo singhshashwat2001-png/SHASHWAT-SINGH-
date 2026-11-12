@@ -1,0 +1,559 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Title -->
+    <title>Religious Tourism in India | Sacred Places and Pilgrimage Guide</title>
+
+    <!-- SEO Meta Description -->
+    <meta name="description" content="Explore religious tourism in India. Discover famous temples, pilgrimage destinations, spiritual places and responsible tourism experiences.">
+
+    <meta name="keywords" content="religious tourism in India, pilgrimage tourism, spiritual tourism India, sacred places in India, famous temples in India, Varanasi tourism">
+
+    <meta name="author" content="Student Digital Marketing Project">
+    <meta name="robots" content="index, follow">
+
+    <!-- Social Media SEO -->
+    <meta property="og:title" content="Religious Tourism in India">
+    <meta property="og:description" content="Explore India's famous spiritual destinations and pilgrimage experiences.">
+    <meta property="og:type" content="website">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fffaf2;
+        }
+
+        /* Navigation */
+        nav {
+            background: #783c18;
+            padding: 16px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        nav h2 {
+            color: white;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #ffd28a;
+        }
+
+        /* Hero Section */
+        header {
+            background:
+                linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+                url("https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1600&q=85");
+
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        header p {
+            font-size: 19px;
+            max-width: 750px;
+            margin: auto;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #f3a23c;
+            color: #222;
+            padding: 12px 25px;
+            margin-top: 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #ffd28a;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 1150px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            margin-bottom: 55px;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #783c18;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+
+        .intro {
+            text-align: center;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        /* Destination Cards */
+        .destination-container {
+            display: grid;
+            grid-template-columns:
+                repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 12px rgba(0,0,0,.12);
+            transition: transform .3s;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 190px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 18px;
+        }
+
+        .card-content h3 {
+            color: #783c18;
+            margin-bottom: 10px;
+        }
+
+        /* Responsible Tourism */
+        .responsible {
+            background: #f5e6d2;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        .responsible ul {
+            padding-left: 25px;
+        }
+
+        .responsible li {
+            margin-bottom: 10px;
+        }
+
+        /* FAQ */
+        details {
+            padding: 15px;
+            background: white;
+            margin-bottom: 10px;
+            border-radius: 6px;
+        }
+
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+            color: #783c18;
+        }
+
+        /* Footer */
+        footer {
+            background: #783c18;
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        footer a {
+            color: #ffd28a;
+        }
+
+        /* Mobile Responsive */
+        @media(max-width: 650px) {
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 12px;
+            }
+
+            header h1 {
+                font-size: 30px;
+            }
+
+            header {
+                padding: 85px 15px;
+            }
+        }
+    </style>
+
+    <!-- Structured Data for Search Engines -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Religious Tourism in India",
+        "description": "Explore religious tourism destinations and pilgrimage experiences in India.",
+        "inLanguage": "en-IN"
+    }
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <h2>Sacred India</h2>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#responsible">Responsible Tourism</a></li>
+            <li><a href="#faq">FAQs</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home">
+
+        <h1>Religious Tourism in India</h1>
+
+        <p>
+            Discover India's spiritual heritage, sacred destinations,
+            ancient temples and diverse pilgrimage experiences.
+            Explore faith, culture and responsible travel.
+        </p>
+
+        <a href="#destinations" class="btn">
+            Explore Destinations
+        </a>
+
+    </header>
+
+    <main>
+
+        <!-- About Section -->
+        <section id="about">
+
+            <h2>About Religious Tourism in India</h2>
+
+            <div class="intro">
+
+                <p>
+                    Religious tourism refers to travelling to sacred
+                    places for worship, pilgrimage, spiritual learning
+                    and cultural experiences.
+
+                    India is one of the world's most diverse religious
+                    tourism destinations, attracting visitors from
+                    different parts of the world.
+                </p>
+
+                <br>
+
+                <p>
+                    From Varanasi and Ayodhya to Bodh Gaya and
+                    the Golden Temple, India's religious destinations
+                    represent centuries of faith, tradition,
+                    architecture and cultural heritage.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Destinations Section -->
+        <section id="destinations">
+
+            <h2>Famous Religious Tourism Destinations</h2>
+
+            <p class="intro">
+                Explore some of India's most important
+                religious and spiritual destinations.
+            </p>
+
+            <div class="destination-container">
+
+                <!-- Varanasi -->
+                <article class="card">
+
+                    <img
+                    src="https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=900&q=80"
+                    alt="Sacred ghats and temples of Varanasi">
+
+                    <div class="card-content">
+
+                        <h3>Varanasi, Uttar Pradesh</h3>
+
+                        <p>
+                            Varanasi is one of India's oldest living
+                            cities, famous for its sacred ghats,
+                            Ganga Aarti and spiritual traditions.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <!-- Golden Temple -->
+                <article class="card">
+
+                    <img
+                    src="https://images.unsplash.com/photo-1588096344356-6e9e9f4e6d6a?auto=format&fit=crop&w=900&q=80"
+                    alt="Golden Temple Sikh pilgrimage destination">
+
+                    <div class="card-content">
+
+                        <h3>Golden Temple, Amritsar</h3>
+
+                        <p>
+                            Sri Harmandir Sahib is an important
+                            Sikh pilgrimage centre known for its
+                            spiritual atmosphere and community kitchen.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <!-- Bodh Gaya -->
+                <article class="card">
+
+                    <img
+                    src="https://images.unsplash.com/photo-1606293926075-69a00db2c6c8?auto=format&fit=crop&w=900&q=80"
+                    alt="Buddhist religious heritage and temple architecture">
+
+                    <div class="card-content">
+
+                        <h3>Bodh Gaya, Bihar</h3>
+
+                        <p>
+                            Bodh Gaya is a major Buddhist pilgrimage
+                            destination associated with the
+                            enlightenment of Gautama Buddha.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <!-- Ajmer -->
+                <article class="card">
+
+                    <img
+                    src="https://images.unsplash.com/photo-1609766857041-ed402ea8069a?auto=format&fit=crop&w=900&q=80"
+                    alt="Historic Islamic religious architecture">
+
+                    <div class="card-content">
+
+                        <h3>Ajmer Sharif, Rajasthan</h3>
+
+                        <p>
+                            The Dargah of Khwaja Moinuddin Chishti
+                            is an important spiritual destination
+                            visited by people of different faiths.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <!-- Tirupati -->
+                <article class="card">
+
+                    <img
+                    src="https://images.unsplash.com/photo-1600100397608-f010a4f3e8b7?auto=format&fit=crop&w=900&q=80"
+                    alt="Traditional South Indian Hindu temple">
+
+                    <div class="card-content">
+
+                        <h3>Tirupati, Andhra Pradesh</h3>
+
+                        <p>
+                            Tirupati is famous for the Tirumala
+                            Venkateswara Temple and attracts millions
+                            of pilgrims every year.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <!-- Old Goa -->
+                <article class="card">
+
+                    <img
+                    src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80"
+                    alt="Historic Christian religious heritage in India">
+
+                    <div class="card-content">
+
+                        <h3>Old Goa, Goa</h3>
+
+                        <p>
+                            Old Goa is known for its historic churches
+                            and religious monuments that reflect
+                            India's Christian heritage.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Responsible Tourism -->
+        <section id="responsible">
+
+            <h2>Responsible Religious Tourism</h2>
+
+            <div class="responsible">
+
+                <p>
+                    Sustainable religious tourism ensures that
+                    religious destinations remain clean, accessible
+                    and culturally meaningful for future generations.
+                </p>
+
+                <br>
+
+                <ul>
+
+                    <li>Respect local religious customs and traditions.</li>
+
+                    <li>Avoid plastic waste and maintain cleanliness.</li>
+
+                    <li>Use public transport whenever possible.</li>
+
+                    <li>Support local communities and small businesses.</li>
+
+                    <li>Follow crowd-management and safety guidelines.</li>
+
+                    <li>Protect historical and religious monuments.</li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq">
+
+            <h2>Frequently Asked Questions</h2>
+
+            <details>
+
+                <summary>
+                    What is religious tourism?
+                </summary>
+
+                <p>
+                    Religious tourism involves travelling to
+                    sacred places for worship, pilgrimage,
+                    spiritual experiences and cultural learning.
+                </p>
+
+            </details>
+
+            <details>
+
+                <summary>
+                    Which are the famous religious places in India?
+                </summary>
+
+                <p>
+                    Some famous destinations include Varanasi,
+                    Ayodhya, Tirupati, Bodh Gaya, Amritsar
+                    and Ajmer Sharif.
+                </p>
+
+            </details>
+
+            <details>
+
+                <summary>
+                    How can religious tourism become sustainable?
+                </summary>
+
+                <p>
+                    Through better waste management, public
+                    transportation, water conservation,
+                    responsible visitor behaviour and
+                    protection of cultural heritage.
+                </p>
+
+            </details>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>Sacred India | Religious Tourism Guide</h3>
+
+        <p>
+            Explore India's spiritual heritage
+            and travel responsibly.
+        </p>
+
+        <p>
+            Educational Digital Marketing Project | 2026
+        </p>
+
+        <p>
+            <a href="#home">Back to Top</a>
+        </p>
+
+    </footer>
+
+</body>
+</html>
